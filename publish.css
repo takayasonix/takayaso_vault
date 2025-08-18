@@ -1,0 +1,14 @@
+/* 1) Google Fonts を読み込み（先頭） */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* 2) 文字を Lato に統一 */
+body, .markdown-preview-view,
+.markdown-preview-view h1, .markdown-preview-view h2, .markdown-preview-view h3,
+.markdown-preview-view h4, .markdown-preview-view h5, .markdown-preview-view h6,
+.published-container, .site-body, .site-footer, .navbar {
+  font-family: 'Lato', sans-serif !important;
+}
+
+/* 3) コードは等幅のまま（任意） */
+code, pre { font-family: monospace !important; }
+

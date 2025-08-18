@@ -1,0 +1,13 @@
+{
+  "siteId": "0cd83ef1a83d3258a4da51240d8a60e9",
+  "host": "publish-01.obsidian.md",
+  "included": [],
+  "excluded": [
+    "private",
+    "00_INBOX",
+    "99_Archive",
+    "01_日記",
+    "03_Zettels",
+    "97_Secret"
+  ]
+}

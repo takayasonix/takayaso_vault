@@ -1,0 +1,25 @@
+# Obsidian
+.obsidian/cache/
+.obsidian/workspace.json
+.obsidian/plugins/obsidian-git/data.json
+# OS / エディタ
+.DS_Store
+Thumbs.db
+# バックアップ・ゴミ箱
+.trash/
+.obsidian/plugins/obsidian-file-recovery/
+# でかいバイナリを（必要なら）除外
+# *.png
+# *.jpg
+
+# リポジトリ直下の0もしくは9始まりのフォルダを無視
+/0*/   
+/9*/
+
+# Obsidian: 端末ごとのウィンドウ配置などは共有しない
+.obsidian/workspace*.json
+
+# ゴミ箱・OS系
+.trash/
+.DS_Store
+

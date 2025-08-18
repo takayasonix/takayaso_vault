@@ -1,0 +1,23 @@
+/* Google FontsからLatoを読み込む */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* 全体の文字をLatoに統一 */
+body,
+.markdown-preview-view,
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6,
+.site-body,
+.site-footer,
+.navbar,
+.cm-s-obsidian {
+  font-family: 'Lato', sans-serif !important;
+}
+
+/* コードは除外してモノスペースのまま */
+code, pre {
+  font-family: monospace !important;
+}

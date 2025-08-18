@@ -1,0 +1,8 @@
+{
+  "cssTheme": "Obsidianotion",
+  "interfaceFontFamily": "Lato",
+  "textFontFamily": "Lato",
+  "enabledCssSnippets": [
+    "publish-custom"
+  ]
+}
