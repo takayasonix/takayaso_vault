@@ -3,6 +3,7 @@
   "interfaceFontFamily": "Lato",
   "textFontFamily": "Lato",
   "enabledCssSnippets": [
-    "publish-custom"
+    "publish-custom",
+    "h2-underline"
   ]
 }

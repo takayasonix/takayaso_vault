@@ -1,0 +1,11 @@
+{
+    "id": "keep-list-marker",
+    "name": "Keep List Marker",
+    "version": "1.0.0",
+    "minAppVersion": "1.0.0",
+    "description": "Cmd+Deleteで箇条書きのマーカーを消さずにテキストだけ削除するコマンドを追加します。",
+    "author": "Takayaso",
+    "authorUrl": "https://takayaso.com",
+    "isDesktopOnly": true
+  }
+  

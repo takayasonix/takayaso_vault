@@ -17,7 +17,82 @@ body,
   font-family: 'Lato', sans-serif !important;
 }
 
+/* ページタイトル（h1）を中央寄せ */
+.markdown-preview-view h1,
+.markdown-reading-view h1,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-1 {
+  text-align: center;
+}
+
 /* コードは除外してモノスペースのまま */
 code, pre {
   font-family: monospace !important;
+}
+
+/* ===== Reading view（読むモード / 旧: preview）===== */
+.markdown-reading-view h2,
+.markdown-preview-view h2,
+.markdown-preview-view .markdown-preview-sizer h2 {
+  position: relative;
+  padding-bottom: 6px;
+  margin-bottom: 15px !important;
+}
+.markdown-reading-view h2::after,
+.markdown-preview-view h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--text-normal);
+  opacity: 0.3;
+}
+
+/* ===== Live Preview（編集モード）===== */
+/* 行（cm-line）に下線を引く：もっとも安定 */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-2 {
+  position: relative;
+  padding-bottom: 6px;
+  margin-bottom: 15px !important;
+}
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-header-2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--text-normal);
+  opacity: 0.3;
+}
+
+/* ===== 箇条書きリストのスタイル調整 ===== */
+/* Reading view（読むモード）での箇条書き */
+.markdown-preview-view ul li::marker,
+.markdown-reading-view ul li::marker {
+  content: "・";
+  font-size: 1.2em;
+  color: var(--text-normal);
+}
+
+/* 箇条書きのインデント調整 */
+.markdown-preview-view ul,
+.markdown-reading-view ul {
+  padding-left: 1.5em;
+}
+
+.markdown-preview-view ul li,
+.markdown-reading-view ul li {
+  margin-left: 0.5em;
+  padding-left: 0.3em;
+}
+
+/* Live Preview（編集モード）での箇条書き */
+.markdown-source-view.mod-cm6 .cm-list-1::marker,
+.markdown-source-view.mod-cm6 .cm-list-2::marker,
+.markdown-source-view.mod-cm6 .cm-list-3::marker {
+  content: "・";
+  font-size: 1.2em;
+  color: var(--text-normal);
 }

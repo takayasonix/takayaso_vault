@@ -1,0 +1,12 @@
+/* マーカーと文字の距離調整 - 編集モード */
+.markdown-source-view.mod-cm6 .cm-list-1,
+.markdown-source-view.mod-cm6 .cm-list-2,
+.markdown-source-view.mod-cm6 .cm-list-3 {
+  text-indent: 0.6em; /* テキストの開始位置を調整 */
+}
+
+/* 読むモードでの箇条書き距離調整 */
+.markdown-preview-view ul li,
+.markdown-reading-view ul li {
+  padding-left: 0.6em; /* マーカーと文字の距離を広げる */
+}
