@@ -5,5 +5,7 @@
   "enabledCssSnippets": [
     "publish-custom",
     "h2-underline"
-  ]
+  ],
+  "theme": "system",
+  "accentColor": "#012f7b"
 }

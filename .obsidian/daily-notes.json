@@ -1,5 +1,5 @@
 {
-  "format": "YYYY-MM-DD",
+  "format": "YYYYMMDD",
   "folder": "01_Diary",
   "template": "91_Config/日記テンプレート",
   "autorun": true

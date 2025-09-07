@@ -1,5 +1,7 @@
 {
   "newFileLocation": "folder",
   "newFileFolderPath": "00_Inbox",
-  "attachmentFolderPath": "90_Extra"
+  "attachmentFolderPath": "90_Extra",
+  "foldIndent": false,
+  "foldHeading": false
 }
