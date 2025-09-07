@@ -6,5 +6,7 @@
   "templater-obsidian",
   "various-complements",
   "keep-list-marker",
-  "dataview"
+  "dataview",
+  "obsidian-tasks-plugin",
+  "obsidian-memos"
 ]

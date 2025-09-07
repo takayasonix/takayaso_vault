@@ -1,6 +1,6 @@
 {
   "format": "YYYY-MM-DD",
   "folder": "01_Diary",
-  "template": "98_Config/日記テンプレート",
+  "template": "91_Config/日記テンプレート",
   "autorun": true
 }
